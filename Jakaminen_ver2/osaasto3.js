@@ -1,4 +1,4 @@
-///<reference path="D:/Git/Jakaminen_ver2/node_modules/@types/jquery/index.d.ts" />
+///<reference path="E:/Jakaminen_ver2/node_modules/@types/jquery/index.d.ts" />
 
 window.onload = function () {
 

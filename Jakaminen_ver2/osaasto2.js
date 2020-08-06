@@ -1,9 +1,9 @@
-///<reference path="D:/Git/Jakaminen_ver2/node_modules/@types/jquery/index.d.ts" />
+///<reference path="E:/Jakaminen_ver2/node_modules/@types/jquery/index.d.ts" />
 
 window.onload = function () {
 
 
-    var oDateTrigger = new Date("08/12/2020");
+    var oDateTrigger = new Date("08/01/2020");
     var oToday = new Date();
     if (oToday < oDateTrigger) {
 
