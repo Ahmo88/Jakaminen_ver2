@@ -2,7 +2,7 @@
 
 window.onload = function () {
 
-    var oDateTrigger = new Date("08/01/2020");
+    var oDateTrigger = new Date("08/12/2020");
     var oToday = new Date();
     if (oToday < oDateTrigger) {
         $('div[id^="div-"]').hide().fadeIn(2000);
