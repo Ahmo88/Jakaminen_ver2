@@ -1,0 +1,555 @@
+/*body */
+.body{
+  height:1400px; 
+  width: 100%;
+    
+  background-image: linear-gradient(rgb(157, 163, 141), rgb(194, 213, 255));
+    
+  }
+  /*label valitse osasto*/
+  .labelTitle{
+     
+    background: transparent;
+    display:block;
+    height:50px;
+    color:black;
+    /*font-weight: bold;*/
+    font-size:30px;
+    text-align: center;
+  
+    
+  }
+  /* div osaasto1,osaasto2,osaasto3,osaasto4,osaasto5,osaasto6*/
+  .div1{
+    height:600px; 
+    width: 800px;
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background:linear-gradient(to bottom,#cacaca 30%, #fdfdfd 100%);
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+  
+    
+   }
+   
+   .divForBt1{
+    height: 80px;
+    width:750px;
+    padding-top: 15px;
+    padding-left: 15px;
+    /*border-style: double;*/
+    border-radius: 10px;
+   
+    
+
+  }
+
+  .divForBt2{
+    height: 80px;
+    width:750px;
+    padding-top: 15px;
+    padding-left: 15px;
+    /*border-style: double;*/
+    border-radius: 10px;
+
+  }
+
+  .divForBt3{
+    height: 80px;
+    width:750px;
+    padding-top: 15px;
+    padding-left: 15px;
+    /*border-style: double;*/
+    border-radius: 10px;
+
+  }
+
+  .divForBt4{
+    height: 80px;
+    width:750px;
+    padding-top: 15px;
+    padding-left: 15px;
+    /*border-style: double;*/
+    border-radius: 10px;
+
+  }
+
+  .divForBt5{
+    height: 80px;
+    width:750px;
+    padding-top: 15px;
+    padding-left: 15px;
+    /*border-style: double;*/
+    border-radius: 10px;
+
+  }
+
+  .divForBt6{
+    height: 80px;
+    width:750px;
+    padding-top: 15px;
+    padding-left: 15px;
+    /*border-style: double;*/
+    border-radius: 10px;
+
+  }
+
+   /* this buttons are div (in html bt1,bt2,bt3,bt4,bt5,bt6)*/
+   .buttons{
+    height:80px ; 
+    width: 100px;
+    background:linear-gradient(to bottom,#ffffff 30%, #78787a 100%);
+    /*border-style:double;*/
+    /*border-color: rgb(255, 255, 255);*/
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    /*font-weight: bold;*/
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+ 
+   }
+   .buttons:hover {
+    background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+  }
+
+  .buttons.highlight {
+    background:#ff0;
+  }
+  .buttons.disabled {
+    background:#aaa;
+  }
+
+  .labelmsg1{
+    margin-left: 145px;
+    margin-top: -5px;
+    height: 15px;
+    position: absolute;
+  
+  }
+  .msg1{
+    height: 60px;
+    width: 220px;
+    margin-left: 140px;
+    margin-top: 15px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+  .labelmsg2{
+    margin-left: 145px;
+    margin-top: 91px;
+    height: 15px;
+    position: absolute;
+  
+  }
+  .msg2{
+    height: 60px;
+    width: 220px;
+    margin-left: 140px;
+    margin-top: 110px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+  .labelmsg3{
+    margin-left: 145px;
+    margin-top: 186px;
+    height: 15px;
+    position: absolute;
+  
+  }
+  .msg3{
+    height: 60px;
+    width: 220px;
+    margin-left: 140px;
+    margin-top: 205px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+  .labelmsg4{
+    margin-left: 145px;
+    margin-top: 282px;
+    height: 15px;
+    position: absolute;
+  
+  }
+  .msg4{
+    height: 60px;
+    width: 220px;
+    margin-left: 140px;
+    margin-top: 300px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+  .labelmsg5{
+    margin-left: 145px;
+    margin-top: 377px;
+    height: 15px;
+    position: absolute;
+  
+  }
+  .msg5{
+    height: 60px;
+    width: 220px;
+    margin-left: 140px;
+    margin-top: 395px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+  .labelmsg6{
+    margin-left: 145px;
+    margin-top: 472px;
+    height: 15px;
+    position: absolute;
+  
+  }
+  .msg6{
+    height: 60px;
+    width: 220px;
+    margin-left: 140px;
+    margin-top: 490px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+
+
+  .sendmsg1{
+margin-left: 370px;
+margin-top: 15px;
+height: 65px;
+width: 70px;
+background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+/*border-style:double;*/
+ /* border-color: white;*/
+position: absolute;
+/*transform: rotate(-90deg);*/
+font-size: 14px;
+/*font-weight: bold;*/
+}
+
+.sendmsg1:hover {
+  background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+}
+
+.sendmsg2{
+  margin-left: 370px;
+  margin-top: 110px;
+  height: 65px;
+  width: 70px;
+  background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+ /*border-style:double;*/
+   /* border-color: white;*/
+  position: absolute;
+  /*transform: rotate(-90deg);*/
+  font-size: 14px;
+  /*font-weight: bold;*/
+  }
+  
+  .sendmsg2:hover {
+    background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+  }
+
+  .sendmsg3{
+    margin-left: 370px;
+    margin-top: 205px;
+    height: 65px;
+    width: 70px;
+    background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+    /*border-style:double;*/
+     /* border-color: white;*/
+    position: absolute;
+    /*transform: rotate(-90deg);*/
+    font-size: 14px;
+    /*font-weight: bold;*/
+    }
+    
+    .sendmsg3:hover {
+      background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+    }
+
+    .sendmsg4{
+      margin-left: 370px;
+      margin-top: 300px;
+      height: 65px;
+      width: 70px;
+      background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+      /*border-style:double;*/
+       /* border-color: white;*/
+      position: absolute;
+      /*transform: rotate(-90deg);*/
+      font-size: 14px;
+      /*font-weight: bold;*/
+      }
+      
+      .sendmsg4:hover {
+        background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+      }
+
+      .sendmsg5{
+        margin-left: 370px;
+        margin-top: 395px;
+        height: 65px;
+        width: 70px;
+        background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+         /*border-style:double;*/
+         /* border-color: white;*/
+        position: absolute;
+        /*transform: rotate(-90deg);*/
+        font-size: 14px;
+        /*font-weight: bold;*/
+        }
+        
+        .sendmsg5:hover {
+          background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+        }
+
+        .sendmsg6{
+          margin-left: 370px;
+          margin-top: 490px;
+          height: 65px;
+          width: 70px;
+          background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+          /*border-style:double;*/
+           /* border-color: white;*/
+          position: absolute;
+          /*transform: rotate(-90deg);*/
+          font-size: 14px;
+          /*font-weight: bold;*/
+          }
+          
+          .sendmsg6:hover {
+            background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+          }
+
+.labelreceivemsg1{
+    margin-left: 460px;
+    margin-top: -5px;
+    height: 15px;
+    position: absolute;
+    
+  }
+
+  .labelreceivemsg2{
+    margin-left: 460px;
+    margin-top: 91px;
+    height: 15px;
+    position: absolute;
+    
+  }
+
+  .labelreceivemsg3{
+    margin-left: 460px;
+    margin-top: 186px;
+    height: 15px;
+    position: absolute;
+    
+  }
+
+  .labelreceivemsg4{
+    margin-left: 460px;
+    margin-top: 282px;
+    height: 15px;
+    position: absolute;
+    
+  }
+
+  .labelreceivemsg5{
+    margin-left: 460px;
+    margin-top: 377px;
+    height: 15px;
+    position: absolute;
+    
+  }
+
+  .labelreceivemsg6{
+    margin-left: 460px;
+    margin-top: 472px;
+    height: 15px;
+    position: absolute;
+    
+  }
+  .receivemsg1{
+    height: 60px;
+    width: 220px;
+    margin-left: 455px;
+    margin-top: 15px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+  .receivemsg2{
+    height: 60px;
+    width: 220px;
+    margin-left: 455px;
+    margin-top: 110px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+  .receivemsg3{
+    height: 60px;
+    width: 220px;
+    margin-left: 455px;
+    margin-top: 205px;
+    background: rgb(226, 226, 226);
+    
+    position: absolute;
+  }
+
+  .receivemsg4{
+    height: 60px;
+    width: 220px;
+    margin-left: 455px;
+    margin-top: 300px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+  .receivemsg5{
+    height: 60px;
+    width: 220px;
+    margin-left: 455px;
+    margin-top: 395px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+
+  .receivemsg6{
+    height: 60px;
+    width: 220px;
+    margin-left: 455px;
+    margin-top: 490px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+  }
+  
+
+  
+  .msgok1{
+    margin-left: 685px;
+    margin-top: 15px;
+    height: 65px;
+    width: 70px;
+    background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+    /*border-style:double;*/
+     /* border-color: white;*/
+    position: absolute;
+    /*transform: rotate(-90deg);*/
+    font-size: 14px;
+    /*font-weight: bold;*/
+    }
+    .msgok1:hover {
+      background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+      color: whitesmoke;
+    }
+
+    .msgok2{
+      margin-left: 685px;
+      margin-top: 110px;
+      height: 65px;
+      width: 70px;
+      background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+      /*border-style:double;*/
+       /* border-color: white;*/
+      position: absolute;
+      /*transform: rotate(-90deg);*/
+      font-size: 14px;
+      /*font-weight: bold;*/
+      }
+      .msgok2:hover {
+        background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+      }
+
+      .msgok3{
+        margin-left: 685px;
+        margin-top: 205px;
+        height: 65px;
+        width: 70px;
+        background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+        /*border-style:double;*/
+         /* border-color: white;*/
+        position: absolute;
+        /*transform: rotate(-90deg);*/
+        font-size: 14px;
+        /*font-weight: bold;*/
+        }
+        .msgok3:hover {
+          background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+        }
+
+        .msgok4{
+          margin-left: 685px;
+          margin-top: 300px;
+          height: 65px;
+          width: 70px;
+          background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+          /*border-style:double;*/
+           /* border-color: white;*/
+          position: absolute;
+          /*transform: rotate(-90deg);*/
+          font-size: 14px;
+          /*font-weight: bold;*/
+          }
+          .msgok4:hover {
+            background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+            color: whitesmoke;
+          }
+
+          .msgok5{
+            margin-left: 685px;
+            margin-top: 395px;
+            height: 65px;
+            width: 70px;
+            background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+            /*border-style:double;*/
+             /* border-color: white;*/
+            position: absolute;
+            /*transform: rotate(-90deg);*/
+            font-size: 14px;
+            /*font-weight: bold;*/
+            }
+            .msgok5:hover {
+              background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+            }
+
+            .msgok6{
+              margin-left: 685px;
+              margin-top: 490px;
+              height: 65px;
+              width: 70px;
+              background:linear-gradient(to bottom,#ffffff 30%, #929291 100%);
+              /*border-style:double;*/
+             /* border-color: white;*/
+              position: absolute;
+              /*transform: rotate(-90deg);*/
+              font-size: 14px;
+              /*font-weight: bold;*/
+              }
+              .msgok6:hover {
+                background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+                color: whitesmoke;
+              }
+    
+   
+
+  

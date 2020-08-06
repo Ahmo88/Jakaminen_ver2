@@ -1,0 +1,1161 @@
+
+ 
+.body{
+  
+  height:1400px; 
+  width: 1600px;
+  background-image: linear-gradient(rgb(157, 163, 141), rgb(194, 213, 255));
+  margin-left: auto;
+  margin-right: auto;
+ /* background-image: url("images/4.jpg");*/
+    
+  }
+
+.divLabel{
+  height: 40px;
+  width:  1600px;
+  margin-top: 0px; 
+  position: absolute;
+  font-size: 24px;
+  color: black;
+  background-image: linear-gradient(rgb(134, 134, 134), rgb(255, 255, 255), rgb(116, 116, 116));
+
+}
+
+.label1{
+ 
+  margin-top: 0px; 
+  margin-left:55px;
+  position: absolute;
+  font-size: 24px;
+  color: black;
+ 
+}
+
+.label2{
+  
+  margin-top: 0px; 
+  margin-left:300px;
+  position: absolute;
+  font-size: 24px;
+  color: black;
+  
+
+}
+
+.label3{
+  
+  margin-top: 2px; 
+  margin-left:515px;
+  position: absolute;
+  font-size: 24px;
+  color: black;
+  
+
+}
+
+.label4{
+ 
+  margin-top: 2px; 
+  margin-left:760px;
+  position: absolute;
+  font-size: 24px;
+  color: black;
+ 
+
+}
+
+.label5{
+ 
+  margin-top: 2px; 
+  margin-left:980px;
+  position: absolute;
+  font-size: 24px;
+  color: black;
+
+
+}
+
+.label6{
+  
+  margin-top: 2px; 
+  margin-left:1210px;
+  position: absolute;
+  font-size: 24px;
+  color: black;
+
+
+}
+.label7{
+  
+  margin-top: 2px; 
+  margin-left:1430px;
+  position: absolute;
+  font-size: 24px;
+  color: black;
+  
+
+}
+
+
+ 
+  .valmisDiv{
+   position: absolute;
+
+  }
+  .historiaDiv{
+    position: absolute;
+ 
+   }
+
+   .listOfallListBoxDiv{
+    position: absolute;
+ 
+   }
+ 
+ 
+.listBox
+{ 
+  margin-top: 40px;
+  margin-left: 0px;
+  width: 225px;
+  height: 250px;
+  border-style: double;
+  font-size: 16px;
+  /*font-weight: bold;*/
+  overflow-x:auto;
+  /*border-color:rgb(115, 62, 214);*/
+  background-image: linear-gradient(rgb(144, 146, 140), rgb(218, 255, 250));
+  border-color: rgb(3, 3, 3);
+ 
+ 
+}
+.listBox::-webkit-scrollbar {
+  width: 10px;
+}
+
+.listBox::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.50);
+}
+.listBox::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(rgb(112, 116, 102), rgb(218, 255, 250));
+  
+}
+
+
+/*CLIENT MESSEANGER ////////////////////////*/
+.messangerDiv{
+position: absolute;
+border-style: double;
+width: 500px;
+height: 450px;
+margin-left: 550px;
+margin-top: 80px;
+background-image: linear-gradient(rgb(156, 167, 154), rgb(222, 226, 235));
+border-color: rgb(134, 134, 134);
+border-radius: 15px;
+
+}
+
+.messangerLabe2{
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 23px;
+ 
+}
+.messangerLabe3{
+  position: absolute;
+  margin-top: 232px;
+  margin-left: 23px;
+ 
+}
+
+.msgFromClient{
+  position: absolute;
+  width: 450px;
+  height:120px ;
+  margin-top: 50px;
+  margin-left: 23px;
+  border-style: double;
+  background: rgb(226, 226, 226);
+  font-size: 16px;
+  /*font-weight: bold;*/
+  border-color: rgb(255, 255, 255);
+  border-radius: 0px
+}
+
+.msgFromServer{
+  position: absolute;
+  width: 450px;
+  height:120px ;
+  margin-top: 250px;
+  margin-left: 23px;
+  border-style: double;
+  background: rgb(226, 226, 226);
+  font-size: 16px;
+  /*font-weight: bold;*/
+  border-color: rgb(255, 255, 255);
+  border-radius: 0px
+
+}
+
+.buttonSendMsg{
+position: absolute;
+height: 40px;
+width: 150px;
+margin-top: 180px;
+margin-left: 170px;
+border-style: double;
+border-color: rgb(255, 255, 255);
+font-size: 16px;
+/*font-weight: bold;*/
+border-radius: 0px
+
+}
+
+.buttonSendMsg:hover {
+  background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+  color: whitesmoke;
+}
+
+.buttonReadedMsg{
+  position: absolute;
+height: 40px;
+width: 150px;
+margin-top: 380px;
+margin-left: 170px;
+border-style: double;
+border-color: rgb(255, 255, 255);
+font-size: 16px;
+/*font-weight: bold;*/
+border-radius: 0px
+
+}
+
+.buttonReadedMsg:hover {
+  background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+  color: whitesmoke;
+}
+
+/*////////////////////////////////////////////*/
+.listBoxValmis{
+
+  border-style: double;
+  border-color: black;
+  height: 350px;
+  width:  260px;
+  position: absolute;
+  margin-top: 422px;
+  margin-left: 165px;
+   background-color: transparent;
+  font-size: 15px;
+  /*font-weight: bold;*/
+  overflow-x:auto;
+  
+}
+
+.listBoxValmis::-webkit-scrollbar {
+  width: 10px;
+}
+
+.listBoxValmis::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.50);
+}
+.listBoxValmis::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(rgb(112, 116, 102), rgb(218, 255, 250));
+  
+}
+
+.valmisOk{
+  margin-top:422px;
+  margin-left: 427px;
+  position: absolute;
+  width:60px;
+  height: 350px;
+  font-size: 15px;
+  /*font-weight: bold;*/
+  color: black;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: linear-gradient(rgb(112, 116, 102), rgb(218, 255, 250));
+  
+
+}
+.valmisOk:hover {
+  background:linear-gradient(to bottom,#98b19c 50%, #9ae4a4 100%);
+  color: whitesmoke;
+}
+
+.labelValmis{
+    
+  color: black;
+  height: 24px;
+  width: 350px;
+  margin-top:585px;
+  margin-left: -25px;
+  position: absolute;
+  text-align: center;
+  font-size: 17px;
+  /*font-weight: bold;*/
+  background-image: linear-gradient(rgb(112, 116, 102), rgb(218, 255, 250));
+  transform: rotate(-90deg);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+
+}
+.listOfallListBox{
+
+  border-style: double;
+  border-color: black;
+  height: 350px;
+  width:  260px;
+  position: absolute;
+  margin-top: 422px;
+  margin-left: 675px;
+  background-color: transparent;
+  font-size: 15px;
+  /*font-weight: bold;*/
+  overflow-x:auto;
+  
+}
+.listOfallListBox::-webkit-scrollbar {
+  width: 10px;
+}
+
+.listOfallListBox::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.50);
+}
+.listOfallListBox::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(rgb(112, 116, 102), rgb(218, 255, 250));
+  
+}
+
+.labelKaikki{
+    
+  color: black;
+  height: 24px;
+  width: 350px;
+  margin-top:585px;
+  margin-left: 485px;
+  position: absolute;
+  text-align: center;
+  font-size: 17px;
+  /*font-weight: bold;*/
+  transform: rotate(-90deg);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: linear-gradient(rgb(112, 116, 102), rgb(218, 255, 250));
+
+
+}
+
+.listBoxHistoria{
+
+  border-style: double;
+  border-color: black;
+  height: 322px;
+  width:  260px;
+  position: absolute;
+  margin-top: 422px;
+  margin-left:1179px;
+  background-color: transparent;
+  font-size: 15px;
+  /*font-weight: bold;*/
+  overflow-x:auto;
+
+  
+}
+
+.listBoxHistoria::-webkit-scrollbar {
+  width: 10px;
+}
+
+.listBoxHistoria::-webkit-scrollbar-track {
+  
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.50);
+}
+.listBoxHistoria::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(rgb(116, 106, 102), rgb(236, 225, 223));
+  
+}
+
+.historiaDelete{
+  margin-top:422px;
+  margin-left: 1442px;
+  position: absolute;
+  width:60px;
+  height: 200px;
+  font-size: 15px;
+  /*font-weight: bold;*/
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: linear-gradient(rgb(116, 106, 102), rgb(236, 225, 223));
+}
+
+.historiaDelete:hover {
+  background:linear-gradient(to bottom,#b19898 50%, #bd1f1a 100%);
+  color: whitesmoke;
+}
+
+.labelHistoria{
+    
+  color: black;
+  height: 24px;
+  width: 350px;
+  margin-top: 585px;
+  margin-left: 989px;
+  position: absolute;
+  font-size: 17px;
+  /*font-weight: bold;*/
+  text-align: center;
+  background-image: linear-gradient(rgb(116, 106, 102), rgb(236, 225, 223));
+  transform: rotate(-90deg);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+
+}
+
+.etsi{
+  margin-top:645px;
+  margin-left: 1442px;
+  position: absolute;
+  width:60px;
+  height: 128px;
+  font-size: 15px;
+  /*font-weight: bold;*/
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: linear-gradient(rgb(116, 106, 102), rgb(236, 225, 223));
+}
+
+.etsi:hover {
+  background:linear-gradient(to bottom,#b19898 50%, #bebcb6 100%);
+  color: whitesmoke;
+}
+
+.text1
+  {
+
+    margin-top:748px;
+    margin-left: 1179px;
+    position: absolute;
+    width:255px;
+    height: 20px;
+    background-color: rgb(250, 250, 250);
+    border-color: rgb(231, 209, 209);
+
+  }
+  
+
+.buttonValmisDiv
+  {
+    height: 50px;
+    width:  1605px;
+    /*background-color: transparent;*/
+   /* border-style: double;*/
+   background-image: linear-gradient(rgb(134, 134, 134), rgb(255, 255, 255), rgb(116, 116, 116));
+   border-top-right-radius: 25px ;
+   border-bottom-right-radius: 25px ;
+    
+  }
+
+  .divCanvasOptions
+  {
+    height: 60px;
+    width:  1600px;
+    margin-top: 60px; 
+    position: absolute;
+    font-size: 24px;
+    border-radius: 5px;
+   /* background:linear-gradient( #ffffff 0%, #656468 50%);*/
+   background-image: linear-gradient(rgb(236, 255, 230), rgb(107, 105, 105), rgb(244, 255, 246));
+  }
+ 
+  .ShowSelectedName
+  {
+    height: 20px;
+    width:  400px;
+    margin-left: 550px;
+    margin-top: 70px;
+    position: absolute;
+    font-size: 17px;
+    /*font-weight: bold;*/
+    /*font-weight: bold;*/
+    border-style: double;
+    background-color: transparent;
+    
+  }
+
+  .btValmis1
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/ready1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    opacity:80%;
+ 
+  }
+  .btValmis1:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+
+  
+  .btValmis2
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/ready1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    opacity:80%;
+    margin-left: -1px;
+
+  }
+  .btValmis2:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+  .btValmis3
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/ready1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    opacity:80%;
+    margin-left: 1px;
+  }
+
+  .btValmis3:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+  .btValmis4
+  {
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/ready1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    opacity:80%;
+    margin-left: 0px;
+
+  }
+  .btValmis4:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+  .btValmis5
+  {
+  
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/ready1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    opacity:80%;
+    margin-left: 0px;
+
+  }
+  .btValmis5:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+  .btValmis6
+  {
+   
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/ready1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    opacity:80%;
+    margin-left: 1px;
+
+
+  }
+  .btValmis6:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+  .btValmis7
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/ready1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    opacity:80%;
+    margin-left: 0px;
+
+  }
+  .btValmis7:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+
+
+  .btDelete1
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/delete.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    margin-left: 22px;
+    opacity:80%;
+    
+  }
+  .btDelete1:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+  .btDelete2
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/delete.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    margin-left: 20px;
+    opacity:80%;
+  }
+  .btDelete2:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+
+  .btDelete3
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/delete.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    margin-left: 22px;
+    opacity:80%;
+  }
+  .btDelete3:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+
+  .btDelete4
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/delete.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    margin-left: 20px;
+    opacity:80%;
+  }
+  .btDelete4:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+
+  .btDelete5
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/delete.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    margin-left: 20px;
+    opacity:80%;
+  }
+  .btDelete5:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+
+  .btDelete6
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/delete.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    margin-left: 22px;
+    opacity:80%;
+
+  }
+  .btDelete6:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+
+  .btDelete7
+  {
+    
+    border-style: none;
+    color: black;
+    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/delete.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border-style: double;
+    border-color: rgb(121, 121, 121);
+    border-radius: 25px;
+    margin-left: 22px;
+    opacity:80%;
+  }
+  .btDelete7:hover {
+    transform: scale(1.05);
+    opacity:100%;
+    color: black;
+  }
+  .updateCheckBoxDiv
+  {
+    position: absolute;
+    height: 45px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 130px;
+    background-color: transparent;
+    background-image: url("css/icons/autoRefresh.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: right;
+
+  }
+
+  .updateCheckBoxDiv:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+  .updataCheckBox
+  {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    margin-top: 0px;
+    margin-left: 0px;
+    color: black;
+   
+  }
+  
+  .updateButton
+  {
+   
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 220px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    width: 110px;
+    height: 45px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/refresh.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+   
+  }
+  .updateButton:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+
+  .mainMsgButton{
+
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 350px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    width: 95px;
+    height: 45px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/message.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  }
+  .mainMsgButton:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+  
+  .saveCanvas
+  {
+    position: absolute;
+    /*border-color: white;*/
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 460px;
+    margin-top: 10px;
+    width: 100px;
+    height: 45px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/save1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+  }
+  .saveCanvas:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+  
+  .setSize
+  { 
+    position: absolute;
+    width: 85px;
+    height: 45px;
+    /*font-weight: bold;*/
+    margin-top: 10px;
+    margin-left:570px;
+    /*border-color: black;*/
+    border-style: none;
+    font-size: 16px;
+    background-color: transparent;
+    background-image: url("css/icons/sizeLine1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: 80%;
+    color: white;
+  }
+  .setSize:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+
+  .setColor
+  {
+    position: absolute;
+    width: 85px;
+    height: 45px;
+    /*font-weight: bold;*/
+    margin-top: 10px;
+    margin-left: 670px;
+   /* border-color: black;*/
+   border-style: none;
+   font-size: 16px;
+   background-color: transparent;
+   background-image: url("css/icons/paint.png");
+   background-repeat: no-repeat;
+   background-size: 40px;
+   text-indent: 70%;
+   color: white;
+    
+  }
+  .setColor:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+  
+  .count
+  {
+    position: absolute;
+    /*font-weight: bold;*/
+    margin-left: 770px;
+    margin-top: 6px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    width: 55px;
+    height: 45px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/memory.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .count:hover {
+    transform: scale(1.3);
+    color: black;
+  }
+
+  .undo
+  {
+    position: absolute;
+    /*font-weight: bold;*/
+    margin-left: 850px;
+    margin-top: 10px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    width: 95px;
+    height: 45px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/undo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  }
+  .undo:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+
+  .redo
+  {
+    position: absolute;
+    /*font-weight: bold;*/
+    margin-left: 970px;
+    margin-top: 10px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    width: 95px;
+    height: 45px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/redo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .redo:hover {
+    transform: scale(1.2);
+    color: black; 
+  }
+
+  .close
+  {
+    position: absolute;
+    /*font-weight: bold;*/
+    margin-left: 1080px; 
+    margin-top: 10px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    width: 95px;
+    height: 45px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/hide.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .close:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+
+
+  .drawingCheckBox
+  {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    margin-left: -80px; 
+    margin-top: 0px;
+    background-color: transparent;
+  }
+  .drawingCheckBoxDiv
+  {
+    margin-left: 1200px; 
+    margin-top: 12px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    width: 80px;
+    height: 45px;
+    text-align: right;
+    background-color: transparent;
+    background-image: url("css/icons/pencil.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+  }
+
+  .drawingCheckBoxDiv:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+  
+
+
+  .nameField
+  {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    /*font-weight: bold;*/
+    margin-left: 1290px; 
+    margin-top: 10px;
+    /*border-color: black;*/
+    font-size: 16px;
+    background-color: rgb(231, 231, 231);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 50px;
+    text-align: center;
+    
+  }
+  .nameField:hover {
+    background: #ffe0e0;
+  }
+
+  .nameFieldCheckBox
+  {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    margin-left: 1450px; 
+    margin-top: 10px;
+    background-color: transparent;
+  }
+  
+  .canvas
+  {
+    
+   /* border-style: double;*/
+   /* border-color: rgb(78, 78, 82); */
+    margin-left: 415px;
+    margin-top: 100px;
+    background-color: transparent;
+    position: absolute;
+    
+  }
+ /*/////////////////////////////////////////*/
+ 
+      
+
+
+ 
